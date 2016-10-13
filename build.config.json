@@ -1,0 +1,53 @@
+{
+  "root": "./public",
+  "deployment": {
+    "local": {
+      "path": "public"
+    },
+    "remote": {
+      "host": "Uh, use git in the future."
+    }
+  },
+  "assets": {
+    "base": [
+      "src/css",
+      "src/images",
+      "src/js"
+    ],
+    "dest": [
+      "public/css",
+      "public/images",
+      "public/js"
+    ]
+  },
+  "html" : {
+    "base"  : "src/",
+    "files" : [
+      "src/**/*.*html",
+      "src/**/*.php"
+    ],
+    "dest"  : "public"
+  },
+  "scripts" : {
+    "base" : "src/js",
+    "bodyFiles" : [
+      "src/js/**/*.js"
+    ],
+    "dest" : "public/js"
+  },
+  "css": {
+    "base" : "src/css",
+    "files": [
+      "src/css/**/*.css",
+      "src/css/**/*.scss"
+    ],
+    "dest" : "public/css"
+  },
+  "images": {
+    "base" : "src/img",
+    "files": [
+      "src/img/**/*"
+    ],
+    "dest" : "public/img"
+  }
+}
