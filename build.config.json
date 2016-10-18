@@ -30,6 +30,7 @@
   },
   "scripts" : {
     "base" : "src/js",
+    "headFiles" : [],
     "bodyFiles" : [
       "src/js/**/*.js"
     ],
